@@ -1,0 +1,10 @@
+@import '../styles/variables.module.scss';
+
+.home {
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    display: flex;
+    font-family: $primaryFont;
+    font-size: 3rem;
+}

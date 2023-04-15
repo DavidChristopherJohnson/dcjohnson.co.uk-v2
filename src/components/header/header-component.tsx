@@ -1,7 +1,7 @@
 import styles from './header-component.module.scss';
 
-export default function HeaderComponent (){
-    return <h1 className={styles.header}>
-        dcjohnson.co.uk
-    </h1>
+export default function Header (){
+    return <header className={styles.header}>
+        <span>David Christopher Johnson</span>
+    </header>
 }

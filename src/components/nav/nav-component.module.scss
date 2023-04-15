@@ -1,0 +1,13 @@
+@import '../../styles/variables.module.scss';
+
+.navbar{
+    background-color: $secondaryBackground;
+    color: $primaryForeground;
+    font: $primaryFont;
+    display: flex;
+    justify-content: space-evenly;
+
+    div {
+        display: flex;
+    }
+}

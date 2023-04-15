@@ -1,15 +1,9 @@
-import HeaderComponent from '@/components/header/header-component'
-import NavComponent from '@/components/nav/nav-component'
-import FooterComponent from '@/components/footer/footer-component'
+import styles from './index.module.scss';
 
 export default function Home() {
-  return (<>
-      <HeaderComponent />
-      <NavComponent/>
-    <main>
-      Under construction - dcjohnson.co.uk
-    </main>
-    <FooterComponent />
-  </>
-  )
+  return <div className={styles.home}>
+    <span>
+      Under construction
+    </span>
+  </div>
 }
